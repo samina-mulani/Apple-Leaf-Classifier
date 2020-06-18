@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Apple Leaf Classifier</string>
+    <string name="pick_from_gallery">Pick from Gallery</string>
+    <string name="home">Home</string>
+    <string name="result_header1">Result is</string>
+    <string name="healthy">Your apple tree is healthy!\nSpring flowers, summer shade and delicious fruit are just some of the wonderful benefits of owning an apple tree. These trees prefer dry, warm climates and moist, loamy soil. Fruit is produced by the pollination of the tree’s flowers. Because many apple trees do not self-pollinate, a variety of apple trees that bloom at the same time need to be planted to encourage self-pollination and fruit production. An apple tree will usually bear fruit in its fourth or fifth year. Fruit comes in many sizes and colors and is best eaten right off the tree.
+    \nApple trees unfortunately are susceptible to many insect and disease issues and require special attention. By properly controlling insects and disease, fertilizing and regularly pruning the trees you can enjoy the beauty and fruit of this tree on your landscape for years.</string>
+    <string name="blackrot">Black rot is a disease of apples that infects fruit, leaves and bark caused by the fungus Botryosphaeria obtusa.
+    \n\nEarly symptoms are often limited to leaf symptoms such as purple spots on upper leaf surfaces. As these spots age, the margins remain purple, but the centers dry out and turn yellow to brown. Over time, the spots expand and heavily infected leaves drop from the tree. Infected branches or limbs will show characteristic red-brown sunken areas that expand each year.
+    \n\nTreating black rot on apple trees starts with sanitation. Because fungal spores overwinter on fallen leaves, mummified fruits, dead bark and cankers, it’s important to keep all the fallen debris and dead fruit cleaned up and away from the tree. During the winter, check for red cankers and remove them by cutting them out or pruning away the affected limbs at least six inches beyond the wound. Destroy all infected tissue immediately and keep a watchful eye out for new signs of infection. Once black rot disease is under control in your tree and you’re again harvesting healthy fruits, make sure to remove any injured or insect-invaded fruits to avoid re-infection.
+        Although general purpose fungicides, like copper-based sprays and lime sulfur, can be used to control black rot, nothing will improve apple black rot like removing all sources of spores.</string>
+    <string name="scab">A serious disease of apples and ornamental crabapples, apple scab (Venturia inaequalis) attacks both leaves and fruit. The fungal disease forms pale yellow or olive-green spots on the upper surface of leaves. Dark, velvety spots may appear on the lower surface. Severely infected leaves become twisted and puckered and may drop early in the summer.
+    \n\nSymptoms on fruit are similar to those found on leaves. Scabby spots are sunken and tan and may have velvety spores in the center. As these spots mature, they become larger and turn brown and corky. Infected fruit becomes distorted and may crack allowing entry of secondary organisms. Severely affected fruit may drop, especially when young.
+    \n\nSome methods of treatment
+    \n\n1. Choose resistant varieties when possible.
+    \n2. Rake under trees and destroy infected leaves to reduce the number of fungal spores available to start the disease cycle over again next spring.
+    \n3. Water in the evening or early morning hours (avoid overhead irrigation) to give the leaves time to dry out before infection can occur.
+    \n4. Spread a 3- to 6-inch layer of compost under trees, keeping it away from the trunk, to cover soil and prevent splash dispersal of the fungal spores.
+    \n5. For best control, spray liquid copper soap early, two weeks before symptoms normally appear. Alternatively, begin applications when disease first appears, and repeat at 7 to 10 day intervals up to blossom drop.</string>
+    <string name="rust">Cedar apple rust (Gymnosporangium juniperi-virginianae) is a fungal disease that requires juniper plants to complete its complicated two year life-cycle. Spores overwinter as a reddish-brown gall on young twigs of various juniper species. In early spring, during wet weather, these galls swell and bright orange masses of spores are blown by the wind where they infect susceptible apple and crab-apple trees. The spores that develop on these trees will only infect junipers the following year. From year to year, the disease must pass from junipers to apples to junipers again; it cannot spread between apple trees.
+    \n\nOn apple and crab-apple trees, look for pale yellow pinhead sized spots on the upper surface of the leaves shortly after bloom. These gradually enlarge to bright orange-yellow spots which make the disease easy to identify. Orange spots may develop on the fruit as well. Heavily infected leaves may drop prematurely.
+    \n\nSome methods of treatment
+    \n\n1. Choose resistant cultivars when available.
+    \n2. Rake up and dispose of fallen leaves and other debris from under trees.
+    \n3. Remove galls from infected junipers. In some cases, juniper plants should be removed entirely.
+    \n4. Apply preventative, disease-fighting fungicides labeled for use on apples weekly, starting with bud break, to protect trees from spores being released by the juniper host. This occurs only once per year, so additional applications after this springtime spread are not necessary.</string>
+</resources>
