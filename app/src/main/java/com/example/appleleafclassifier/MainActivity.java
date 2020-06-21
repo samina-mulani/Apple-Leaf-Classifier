@@ -3,15 +3,22 @@ package com.example.appleleafclassifier;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.net.Uri;
 import android.os.Bundle;
+import android.os.Environment;
 import android.provider.MediaStore;
 import android.util.Log;
 import android.view.View;
 import android.view.Window;
+import android.widget.Toast;
+
+import java.io.File;
 
 public class MainActivity extends AppCompatActivity {
     private static final int PICK_IMAGE = 100;
+    private static final int CAMERA = 200;
+    Uri mUri;
     Uri imageUri;
     private static final String LOG_TAG =
             MainActivity.class.getSimpleName();
@@ -44,5 +51,19 @@ public class MainActivity extends AppCompatActivity {
             intent.setData(imageUri);
             startActivity(intent);
         }
+        else if(resultCode == RESULT_OK && requestCode == CAMERA)
+        {
+            Intent intent = new Intent(this, DisplayResult.class);
+            intent.setData(mUri);
+            startActivity(intent);
+        }
+    }
+
+    public void goToCamera(View view) {
+        Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+        mUri = Uri.fromFile(new File(Environment.getExternalStorageDirectory(), "pic_"+ String.valueOf(System.currentTimeMillis()) + ".jpg"));
+        intent.putExtra(MediaStore.EXTRA_OUTPUT, mUri);
+        startActivityForResult(intent, CAMERA);
+
     }
 }

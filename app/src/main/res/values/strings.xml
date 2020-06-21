@@ -24,4 +24,7 @@
     \n2. Rake up and dispose of fallen leaves and other debris from under trees.
     \n3. Remove galls from infected junipers. In some cases, juniper plants should be removed entirely.
     \n4. Apply preventative, disease-fighting fungicides labeled for use on apples weekly, starting with bud break, to protect trees from spores being released by the juniper host. This occurs only once per year, so additional applications after this springtime spread are not necessary.</string>
+    <string name="take_a_picture">Take a picture</string>
+    <string name="apple_leaf_classifier">Apple Leaf \nClassifier</string>
+    <string name="camera_not_supported">Your device does not support Camera</string>
 </resources>
