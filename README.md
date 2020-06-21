@@ -2,8 +2,8 @@
 
 Android App to classify apple leaves into four categories (Healthy, Black Rot, Cedar Apple Rust and Apple Scab). <br/>
 TensorFlow Model was trained using data from PlantVillage dataset. <br/>
-Model constructed according to this [research paper](https://www.researchgate.net/publication/332052541_Deep_Learning_Convolutional_Neural_Network_for_Apple_Leaves_Disease_Detection) <br/>
-Training accuracy of 91.3% was obtained. 
+Model constructed according to [this](https://www.researchgate.net/publication/332052541_Deep_Learning_Convolutional_Neural_Network_for_Apple_Leaves_Disease_Detection) research paper. <br/>
+Training accuracy of 91.3% was obtained. <br/>
 This app has been developed using Android Studio. <br/> <br/>
 
 ## To test app
