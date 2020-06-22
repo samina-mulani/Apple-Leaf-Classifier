@@ -3,7 +3,6 @@ package com.example.appleleafclassifier;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
-import android.content.pm.PackageManager;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.Environment;
@@ -11,7 +10,6 @@ import android.provider.MediaStore;
 import android.util.Log;
 import android.view.View;
 import android.view.Window;
-import android.widget.Toast;
 
 import java.io.File;
 
@@ -50,9 +48,7 @@ public class MainActivity extends AppCompatActivity {
             Intent intent = new Intent(this, DisplayResult.class);
             intent.setData(imageUri);
             startActivity(intent);
-        }
-        else if(resultCode == RESULT_OK && requestCode == CAMERA)
-        {
+        } else if (resultCode == RESULT_OK && requestCode == CAMERA) {
             Intent intent = new Intent(this, DisplayResult.class);
             intent.setData(mUri);
             startActivity(intent);
@@ -60,10 +56,13 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void goToCamera(View view) {
-        Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
-        mUri = Uri.fromFile(new File(Environment.getExternalStorageDirectory(), "pic_"+ String.valueOf(System.currentTimeMillis()) + ".jpg"));
-        intent.putExtra(MediaStore.EXTRA_OUTPUT, mUri);
-        startActivityForResult(intent, CAMERA);
-
+        Intent cam = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+        mUri = Uri.fromFile(new File(Environment.getExternalStorageDirectory(), "pic_" + String.valueOf(System.currentTimeMillis()) + ".jpg"));
+        cam.putExtra(MediaStore.EXTRA_OUTPUT, mUri);
+        if (cam.resolveActivity((getPackageManager())) != null) {
+            startActivityForResult(cam, CAMERA);
+        } else {
+            Log.d("Camera implicit intent", "Can't handle this intent");
+        }
     }
 }
