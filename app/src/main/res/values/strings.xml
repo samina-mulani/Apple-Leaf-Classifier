@@ -26,5 +26,11 @@
     \n4. Apply preventative, disease-fighting fungicides labeled for use on apples weekly, starting with bud break, to protect trees from spores being released by the juniper host. This occurs only once per year, so additional applications after this springtime spread are not necessary.</string>
     <string name="take_a_picture">Take a picture</string>
     <string name="apple_leaf_classifier">Apple Leaf \nClassifier</string>
+
     <string name="camera_not_supported">Your device does not support Camera</string>
+    <string name="capture">Capture</string>
+    <string name="capture_image_failed">Failed to capture image.</string>
+    <string name="permission_message">Both permissions are required. Please allow both permission to take picture.</string>
+    <string name="cancel_message">Cancelled by user.</string>
+    <string name="capture_deny_message">Capture image won\'t work without both permissions.</string>
 </resources>
