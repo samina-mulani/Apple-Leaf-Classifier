@@ -101,7 +101,6 @@ public class MainActivity extends AppCompatActivity {
         return FileProvider.getUriForFile(MainActivity.this,
                 BuildConfig.APPLICATION_ID + ".provider",
                 mediaFile);
-        //return Uri.fromFile(mediaFile);
     }
 
     /*  Check both permissions  */
